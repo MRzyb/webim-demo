@@ -6,18 +6,18 @@
 </template>
 
 <script>
-import WebIM from '../config/WebIM'
-var rtcCall = null
-export default {
-  data() {
-    return {
-        
+  import WebIM from '../config/WebIM'
+
+  var rtcCall = null
+
+  export default {
+    data() {
+      return {}
+    },
+    mounted() {
+
     }
-  },
-  mounted() {
-      
   }
-}
 </script>
 
 <style scoped>
